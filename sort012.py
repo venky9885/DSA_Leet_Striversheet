@@ -7,6 +7,7 @@ class Solution:
                     nums[i],nums[j] = nums[j],nums[i]
         """
         Do not return anything, modify nums in-place instead.
+        or sorted(nums)
         """
         
 
