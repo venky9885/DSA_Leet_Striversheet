@@ -1,3 +1,7 @@
+# it is important problem in BFS'
+# BFS means going bready=th first by using queue DS
+
+
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         # problem related to BFS
