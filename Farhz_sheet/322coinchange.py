@@ -1,7 +1,9 @@
 
 # check neetcode video  https://www.youtube.com/watch?v=H9bfqozjoqs
+# Also this https://www.youtube.com/watch?v=SIHLJdF4F8A&t=15s better visuvalization
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
+        # here we go one by one coin and check the dp cache and we go top down approach
         dp = [amount+1]*(amount+1)
         dp[0] = 0
         for i in range(1, amount+1):
@@ -9,6 +11,7 @@ class Solution:
             for coin in coins:
                 # print(dp[i],1+dp[i-coin])
                 if(i-coin >= 0):
+                    # why we add 1 is we subtracted one coin and added coin count
                     dp[i] = min(dp[i], 1+dp[i-coin])
 
         return dp[-1] if(dp[amount] != amount+1) else -1
