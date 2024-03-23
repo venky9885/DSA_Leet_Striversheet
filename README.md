@@ -38,4 +38,4 @@ Welcome to the SDE (Software Development Engineer) Interview Preparation Sheet! 
 
 ---
 
-Feel free to enhance the README with more details or customize it according to your preferences. Good luck with your interview preparation! 🚀
+Good luck with your interview preparation! 🚀
